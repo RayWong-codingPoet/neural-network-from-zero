@@ -1,9 +1,10 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from advanced_nn_mnist_loader import MNISTLoader
-from advanced_nn_mnist_components import Activations, Loss, Layer
-from advanced_nn_mnist_network import NeuralNetwork
 import time
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from advanced_nn_mnist_loader import MNISTLoader
+from advanced_nn_mnist_network import NeuralNetwork
 
 
 def visualize_predictions(network, X, y, num_samples=10):
