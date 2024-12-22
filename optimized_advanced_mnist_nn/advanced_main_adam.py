@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from advanced_mnist_nn.advanced_nn_mnist_loader import MNISTLoader
+from advanced_nn_mnist_loader import MNISTLoader
 from optimized_advanced_mnist_nn.advanced_nn_mnist_network_with_adam import (
     NeuralNetwork,
 )
-from optimized_advanced_mnist_nn.visualized_utils import VisualizationUtils
+from visualized_utils import VisualizationUtils
 
 
 def main():
